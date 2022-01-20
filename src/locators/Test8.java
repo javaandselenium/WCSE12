@@ -10,7 +10,7 @@ public class Test8 {
 		
 		    WebDriver driver=new ChromeDriver();
 		    driver.manage().window().maximize();
-		    driver.get("https://www.selenium.dev/downloads/");
+		   // driver.get("https://www.selenium.dev/downloads/");
 
 	}
 
