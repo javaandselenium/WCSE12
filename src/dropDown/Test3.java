@@ -1,6 +1,7 @@
 package dropDown;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,16 +15,23 @@ public class Test3 {
 
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("file:///C:/Users/QSP/Desktop/dd.html");
+		driver.get("https://demoapp.skillrary.com/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-WebElement dd = driver.findElement(By.id("MTR"));
+WebElement dd = driver.findElement(By.id("cars"));
 Select s=new Select(dd);
 s.selectByIndex(0);
-s.selectByValue("m");
-s.selectByVisibleText("Cake");
+//s.selectByValue("m");
+//s.selectByVisibleText("Cake");
 
 System.out.println(s.isMultiple());
+
+
+List<WebElement> op = s.getOptions();
+
+for(WebElement b:op) {
+	System.out.println(b.getText());
+}
 
 if(s.isMultiple()) {
 	s.deselectAll();

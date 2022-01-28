@@ -1,6 +1,7 @@
 package dropDown;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -23,7 +24,14 @@ s.selectByIndex(0);
 s.selectByValue("m");
 s.selectByVisibleText("Cake");
 
+List<WebElement> options = s.getAllSelectedOptions();
 
+System.out.println(options.size()+"count of te options");
+
+for(WebElement allop:options)
+{
+	System.out.println(allop.getText());
+}
 
 
 Thread.sleep(3000);
