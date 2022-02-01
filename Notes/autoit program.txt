@@ -1,0 +1,7 @@
+WinWaitActive("Open")
+Sleep(2000)
+ControlFocus("Open","","Edit1")
+Sleep(2000)
+Send("C:\Users\QSP\Downloads\API Resume (1) (1).docx")
+Sleep(2000)
+ControlClick("Open","&Open","Button1")
