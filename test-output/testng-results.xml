@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Facebook – log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjQ0MjA3ODI5LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
+    </line>
+    <line>
+      <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fcreate%2F%3Fref_type%3Dregistration_form]]>
+    </line>
+    <line>
+      <![CDATA[Log in to Facebook]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-07T09:53:42 IST" name="Suite" finished-at="2022-02-07T09:54:34 IST" duration-ms="52667">
+    <groups>
+    </groups>
+    <test started-at="2022-02-07T09:53:42 IST" name="Test" finished-at="2022-02-07T09:54:34 IST" duration-ms="52667">
+      <class name="testng.Testcase1">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testng.Testcase1@1d8bd0de]" started-at="2022-02-07T09:53:42 IST" name="openApp" finished-at="2022-02-07T09:53:48 IST" duration-ms="6659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc1()[pri:0, instance:testng.Testcase1@1d8bd0de]" started-at="2022-02-07T09:53:48 IST" name="tc1" finished-at="2022-02-07T09:54:07 IST" duration-ms="18672" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Facebook – log in or sign up]]>
+            </line>
+            <line>
+              <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjQ0MjA3ODI5LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testng.Testcase1@1d8bd0de]" started-at="2022-02-07T09:54:07 IST" name="closeApp" finished-at="2022-02-07T09:54:11 IST" duration-ms="4467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testng.Testcase1 -->
+      <class name="testng.Testcase2">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testng.Testcase2@45ca843]" started-at="2022-02-07T09:54:11 IST" name="openApp" finished-at="2022-02-07T09:54:17 IST" duration-ms="5090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc2()[pri:0, instance:testng.Testcase2@45ca843]" started-at="2022-02-07T09:54:17 IST" name="tc2" finished-at="2022-02-07T09:54:20 IST" duration-ms="3201" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
+            </line>
+            <line>
+              <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testng.Testcase2@45ca843]" started-at="2022-02-07T09:54:20 IST" name="closeApp" finished-at="2022-02-07T09:54:24 IST" duration-ms="4303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testng.Testcase2 -->
+      <class name="testng.Testcase3">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testng.Testcase3@11c9af63]" started-at="2022-02-07T09:54:24 IST" name="openApp" finished-at="2022-02-07T09:54:29 IST" duration-ms="5099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc3()[pri:0, instance:testng.Testcase3@11c9af63]" started-at="2022-02-07T09:54:29 IST" name="tc3" finished-at="2022-02-07T09:54:34 IST" duration-ms="4693" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fcreate%2F%3Fref_type%3Dregistration_form]]>
+            </line>
+            <line>
+              <![CDATA[Log in to Facebook]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testng.Testcase3@11c9af63]" started-at="2022-02-07T09:54:34 IST" name="closeApp" finished-at="2022-02-07T09:54:34 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testng.Testcase3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

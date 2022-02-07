@@ -1,0 +1,118 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 07 09:53:42 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>52 seconds (52667 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testng.Testcase1.tc1()'><b>tc1</b><br>Test class: testng.Testcase1<br/>
+<a href="#Output-1940601516" onClick='toggleBox("Output-1940601516", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1940601516" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1940601516">
+Facebook – log in or sign up<br/>
+https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjQ0MjA3ODI5LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>testng.Testcase1@1d8bd0de</td></tr>
+<tr>
+<td title='testng.Testcase2.tc2()'><b>tc2</b><br>Test class: testng.Testcase2<br/>
+<a href="#Output-2092066079" onClick='toggleBox("Output-2092066079", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2092066079" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2092066079">
+Forgotten Password | Can't Log In | Facebook<br/>
+https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>testng.Testcase2@45ca843</td></tr>
+<tr>
+<td title='testng.Testcase3.tc3()'><b>tc3</b><br>Test class: testng.Testcase3<br/>
+<a href="#Output-836386144" onClick='toggleBox("Output-836386144", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-836386144" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-836386144">
+https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fcreate%2F%3Fref_type%3Dregistration_form<br/>
+Log in to Facebook<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testng.Testcase3@11c9af63</td></tr>
+</table><p>
+</body>
+</html>
